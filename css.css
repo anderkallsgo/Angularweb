@@ -1,0 +1,12 @@
+ul li {
+    width: 230px;
+    height: 140px;
+    margin: 0;
+    border: 1px solid red;
+    background: #999;
+    overflow: hidden;
+}
+
+ul li:nth-child(odd) {
+    float:left;
+}
